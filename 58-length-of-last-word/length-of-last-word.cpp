@@ -4,7 +4,7 @@ public:
         int n=s.size()-1;
         int num=0;
         cout<<n;
-        while(n>=0&&s[n] == ' '){
+        while(n>=0 && s[n] == ' '){
             n--;
         }
         if(n==-1){
